@@ -79,95 +79,148 @@ ___
 ## Data Analysis
 ___
 
-### **1. Airports with the most travels**
-
+### **1. Airports with the most travels**  
+![airport most travelled](airline1.png)
 
 ### **Discussion and Recommendation**  
 * Böblingen Flugfeld airport, Germany was the most frequently travelled airport (36 passenger flights).
 This airport may require additional flights or larger aircraft to cater to the rising demand and
-increase revenue. They may also require more staff and improved processes to manage potential traffic
+increase revenue. They may also require more staff and improved processes to manage potential traffic.
+___
 
-### **1. Airports with the most travels**  
+### **2. Least travelled airports**  
+![Least travelled](airline_least.png)
 
+### **Discussion and Recommendation**  
+* Hiroshima Airport, Japan and Falcon State Airport, United States each had
+the least flights (1 flight). This suggests a low demand for air travel in these regions
+and a preference for more efficient alternative means of transportation e.g. railway.
+* The geographical location and accessibility may also contribute to the low patronage.
+* Strategies should be implemented to improve operational efficiency in these airports, or 
+if necessary, resources may need to be reallocated to high-demand airports.
+___  
 
+### **3. Age brackets with the most travels**  
+![Age brackets](airline_age_demograph.png)  
+
+### **Discussion and Recommendation**  
+* Elderly passengers (60 yrs and above) made the most travels (33,592). While young adults (20 - 33 yrs) 
+made the least (15,292).
+* The elderly passengers majorly comprise people approaching retirement or even retired. 
+They tend to have more savings and fewer job commitments. Hence may therefore make more holiday trips.
+* Marketing and promotions should be targeted appropriately. In-flight experiences should be tailored 
+to meet the preferences of the target demographics, improving customer satisfaction.
+* It might be worth implementing bonuses and loyalty packages for this age bracket to retain them.
+* The 'young adults' comprise mostly working-class individuals or university students.
+This category of individuals invests more time at their jobs and studies/research, leaving less time for
+frequent trips.
+* Although this age bracket made the least trips according to our data, implementing 
+student bonuses (especially during holidays) or business incentives may encourage more travel.
+___  
+
+### **4. Continents with the most outbound flight**  
+![continents travelled from](airline_continent_flight.png)  
+
+### **Discussion and Recommendation**  
+* Elderly passengers (50 years and above) made the most travels across all continents.
+Conversely, young adults (20 - 33 years) made the least number of trips across all continents.
+* The highest number of trips were made from North American airports, and  the least number of flights from South American airports. 
+* Several reasons may be responsible for this: One of which is a high demand for international
+travel for business and leisure.
+* In addition, a well-established and developed airline  infrastructure would encourage frequent trips. More so, North America appears to have a larger
+number of middle-class people with the financial means to travel internationally
+* Furthermore, many North Americans appear to have family ties abroad, possibly explaining the frequent international travel. Strategies (e.g., streamlined boarding) should be developed to 
+improve services here, to enhance passenger experience.
+* Flight prices may need to be reviewed downwards in the South America region, and incentives implemented to encourage sales.
+___  
+
+### **5. Nationalities with the most travels**  
+![nationality](airline_nationality.png)
+
+### **Discussion and Recommendation**  
+* Chart (generated from PostgreSQL) showed that Chinese passengers made the most travels (18,160).
+* Although previous query showed that the second-highest number of out-bound flights was recorded in Asia, the high number of Chinese making international trips
+highlights the need to provide more aeroplanes and improve flight schedules for better customer satisfaction.
+* Most aspects of the flight should be personalised for better customer experience. For example, a variety of Chinese
+foods should be on the flight's menu; pamphlets can have Chinese translations too; a collection of Chinese movies should be available to watch aboard, etc.
+* Targeted marketing and promotions should also be implemented to encourage more flights by Chinese.
+___  
+
+### **6. Number of flights delayed, cancelled and on-time**  
+![flights delayed, cancelled, on time](airline_flights_status.png)
+
+### **Discussion and Recommendation**  
+* Data showed the airlines had more flight cancellations (32,659 cancelled flights = 34%) compared to 
+flights that were on time (32,559 flights on schedule = 33%) or delayed (32,528 delayed flights = 33%). 
+* The airline management should aim to improve pilot punctuality and flight compliance with schedule.
+* Also, management should aim to achieve a significant decline in the number of flights cancelled/delayed 
+for better customer satisfaction.
+___  
+
+### **7. Seasons with the most delayed or cancelled flights**  
+![seasons flight status](airline_delayed_cancelled.png)
+
+### **Discussion and Recommendation**  
+* The highest number of flights were made in Summer (24,902), and the least in Winter (23,781)
+* Throughout the year, the most flight delays (8,282) were observed in the Spring (Mar-May),
+and the least delays (7,941) in Winter (Dec - Feb).
+* The highest number of flight cancellations (8,352) were observed in the Summer (June - Aug),
+and the least cancellations (7,940) in Winter (Dec - Feb). High cancellations in the Summer 
+may be due to staff shortages during this period, as staff tend to go on holidays in the Summer.
+* Staffing levels, marketing, and operational resources should be adjusted to meet the demand in Summer. 
+Also, flight schedules may need to be adjusted in Summer (peak season) to optimise seat availability.
+* Promotions or discounts may need to be rolled out to help fill seats in Winter.
+* In addition, holiday or seasonal promotions should be offered (targeted by region) 
+such as flights to popular destinations during specific holidays.
+___  
+
+### **8. Arrival airport or destinations with the most visits in Summer**  
+![arrivals](arrival.png)
 
 ### **Discussion and Recommendation**
+* Airport KEZ and BNZ had the most visits during summer (11 flights), suggesting that these locations
+might be top choices for the Summer holidays. 
+* Seasonal discounts and bonuses should be offered to customers travelling to these airports, especially during the Summer holidays, to encourage more trips.
+___  
 
-__  
-### **1. Airports with the most travels**
+### **9. Airports with the most delayed flights**  
 
+### **Discussion and Recommendation**  
+* Visby Airport, Sweden experienced the most flight delays (13 out of 21 flights).
+* This high frequency of delays suggests that this airport may generate a lot of negative customer reviews and complaints.
+* Strategies (e.g., streamlined boarding) should be developed to improve services here, to enhance passenger experience.
+* In addition, communication strategies should be implemented/improved for potential delay-prone flights to proactively inform passengers.
+___  
 
+### **10. Airports with the most cancelled flights**  
 
-### **Discussion and Recommendation**
+### **Discussion and Recommendation**  
+* The highest (13) flight cancellations were experienced in the following airports:
+  - Yangzhou Taizhou Airport in China (13 cancellations out of 27 passenger flights)
+  - Mae Hong Son Airport in Thailand (13 cancellations out of 29 passenger flights)
+  - Böblingen Flugfeld Airport in Germany (13 cancellations out of 36 passenger flights)
 
-__  
+* Although it is not clear if these cancellations were initiated by the airport or if they were 
+customer-initiated, the high cancellation rates suggest that this airport may also generate a lot of negative customer reviews and complaints.
+* Strategies should be developed to improve services here, to enhance passenger experience.
+___  
 
-### **1. Airports with the most travels**
+### **11. Pilots with the most delayed flights**  
 
+### **Discussion and Recommendation**  
+* Ethan Desbrow and Demetris Atherley both had the highest number of delayed flights. All the flights they piloted were delayed.
+* While several factors might be responsible for this, their performance suggests they may require extra training or support to improve performance.
+___  
 
+### **12. Top performing 20 pilots with the most 'on-schedule' flights**  
 
-### **Discussion and Recommendation**
+### **Discussion and Recommendation**  
+* Pilot Janela Eyres was the best-performing pilot, with all (2) flights on schedule. 
+* This pilot should be given some incentive in the form of a bonus or pay rise, to encourage such performance.
+* Implement several strategies to encourage optimum performance. For instance, design Key Performance Indices (KPI) and measure staff performance against these indices
+Best performing staff should be rewarded with some incentives.
+___  
 
-__  
-### **1. Airports with the most travels**
+## **Conclusion**  
 
-
-
-### **Discussion and Recommendation**
-
-__  
-
-### **1. Airports with the most travels**
-
-
-
-### **Discussion and Recommendation**
-
-__  
-### **1. Airports with the most travels**
-
-
-
-### **Discussion and Recommendation**
-
-__  
-
-### **1. Airports with the most travels**
-
-
-
-### **Discussion and Recommendation**
-
-__  
-
-### **1. Airports with the most travels**
-
-
-
-### **Discussion and Recommendation**
-
-__  
-
-### **1. Airports with the most travels**
-
-
-
-### **Discussion and Recommendation**
-
-__  
-
-### **1. Airports with the most travels**
-
-
-
-### **Discussion and Recommendation**
-
-__  
-
-### **1. Airports with the most travels**
-
-
-
-### **Discussion and Recommendation**
-
-__  
+___  
