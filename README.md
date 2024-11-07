@@ -20,10 +20,7 @@ ___
 - [Usage Instructions](#usage-instructions)
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
 - [Data Analysis](#data-analysis)
-- [Results and Discussions](#results-and-discussions)
-- [Recommendations](#recommendations)
-- [References](#references)
-- [License](#license)
+- [Conclusion](#conclusion)
 
 ## About the dataset
 ___
