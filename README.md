@@ -3,16 +3,21 @@ ___
 
 ![aeroplane_photo](airline_photo.jpg)
 
-## Description/Background
-The airline data holds immense importance, as it offers insights into the functioning and efficiency of the aviation industry. It provides valuable information about flight routes, schedules, passenger demographics, and preferences, which airlines can leverage to optimize their operations and enhance customer experiences. 
+## Description
+The airline data holds immense importance, as it offers insights into the functioning and efficiency of the aviation industry. It provides valuable information about flight routes, schedules, passenger demographics, and preferences, which airlines can leverage to optimize their operations and enhance customer experiences.  
 
-By analyzing data on delays, cancellations, and on-time performance, airlines can identify trends and implement strategies to improve punctuality and mitigate disruptions. Moreover, regulatory bodies and policymakers rely on this data to ensure safety standards, enforce regulations, and make informed decisions regarding aviation policies. 
+## Aim and Objectives
+To provide insight on airline and general staff performance, identiifying potential areas of improvement. This will be achieved via: 
+- Identifying most and least traveled airlines, including most visited destinations
+- Customer segmentation based on demographics
+- Analysing data on delays, cancellations, and on-time flights.  
 
-Researchers and analysts use airline data to study market trends, assess environmental impacts, and develop strategies for sustainable growth within the industry.
+Airlines can identify trends and implement strategies to improve punctuality and mitigate disruptions. Moreover, regulatory bodies and policymakers rely on this data to ensure safety standards, enforce regulations, and make informed decisions regarding aviation policies. Researchers and analysts use airline data to study market trends, assess environmental impacts, and develop strategies for sustainable growth within the industry.
 
 ## Table of Contents
 ___
-- [Description/Background](#description/background)
+- [Description](#description)
+- [Aim and Objectives](#aim-and-objectives)
 - [About the dataset](#about-the-dataset)
 - [Dataset Glossary](#dataset-glossary)
 - [Technologies](#technologies)
@@ -21,6 +26,7 @@ ___
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
 - [Data Analysis](#data-analysis)
 - [Conclusion](#conclusion)
+- [Further Improvement](#further-improvement)
 
 ## About the dataset
 ___
@@ -71,7 +77,7 @@ ___
 
 ## Data Cleaning and Preprocessing
 ___
-* Over 800 records with invalid 'arrival_airport' code were deleted
+* Over 800 records with invalid 'arrival_airport' code (0) were deleted
 
 ## Data Analysis
 ___
@@ -79,7 +85,7 @@ ___
 ### **1. Airports with the most travels**  
 ![airport most travelled](airline1.png)
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Böblingen Flugfeld airport, Germany was the most frequently travelled airport (36 passenger flights).
 This airport may require additional flights or larger aircraft to cater to the rising demand and
 increase revenue. They may also require more staff and improved processes to manage potential traffic.
@@ -88,7 +94,7 @@ ___
 ### **2. Least travelled airports**  
 ![Least travelled](airline_least.png)
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Hiroshima Airport, Japan and Falcon State Airport, United States each had
 the least flights (1 flight). This suggests a low demand for air travel in these regions
 and a preference for more efficient alternative means of transportation e.g. railway.
@@ -100,7 +106,7 @@ ___
 ### **3. Age brackets with the most travels**  
 ![Age brackets](airline_age_demograph.png)  
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Elderly passengers (60 yrs and above) made the most travels (33,592). While young adults (20 - 33 yrs) 
 made the least (15,292).
 * The elderly passengers majorly comprise people approaching retirement or even retired. 
@@ -118,7 +124,7 @@ ___
 ### **4. Continents with the most outbound flight**  
 ![continents travelled from](airline_continent_flight.png)  
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Elderly passengers (50 years and above) made the most travels across all continents.
 Conversely, young adults (20 - 33 years) made the least number of trips across all continents.
 * The highest number of trips were made from North American airports, and  the least number of flights from South American airports. 
@@ -134,7 +140,7 @@ ___
 ### **5. Nationalities with the most travels**  
 ![nationality](airline_nationality.png)
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Chart (generated from PostgreSQL) showed that Chinese passengers made the most travels (18,160).
 * Although previous query showed that the second-highest number of out-bound flights was recorded in Asia, the high number of Chinese making international trips
 highlights the need to provide more aeroplanes and improve flight schedules for better customer satisfaction.
@@ -146,7 +152,7 @@ ___
 ### **6. Number of flights delayed, cancelled and on-time**  
 ![flights delayed, cancelled, on time](airline_flights_status.png)
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Data showed the airlines had more flight cancellations (32,659 cancelled flights = 34%) compared to 
 flights that were on time (32,559 flights on schedule = 33%) or delayed (32,528 delayed flights = 33%). 
 * The airline management should aim to improve pilot punctuality and flight compliance with schedule.
@@ -157,7 +163,7 @@ ___
 ### **7. Seasons with the most delayed or cancelled flights**  
 ![seasons flight status](airline_delayed_cancelled.png)
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * The highest number of flights were made in Summer (24,902), and the least in Winter (23,781)
 * Throughout the year, the most flight delays (8,282) were observed in the Spring (Mar-May),
 and the least delays (7,941) in Winter (Dec - Feb).
@@ -174,15 +180,15 @@ ___
 ### **8. Arrival airport or destinations with the most visits in Summer**  
 ![arrivals](arrival.png)
 
-### **Discussion and Recommendation**
+### **Key Insights and Recommendation**
 * Airport KEZ and BNZ had the most visits during summer (11 flights), suggesting that these locations
-might be top choices for the Summer holidays. 
+might be hot spots for the Summer holidays. 
 * Seasonal discounts and bonuses should be offered to customers travelling to these airports, especially during the Summer holidays, to encourage more trips.
 ___  
 
 ### **9. Airports with the most delayed flights**  
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Visby Airport, Sweden experienced the most flight delays (13 out of 21 flights).
 * This high frequency of delays suggests that this airport may generate a lot of negative customer reviews and complaints.
 * Strategies (e.g., streamlined boarding) should be developed to improve services here, to enhance passenger experience.
@@ -191,7 +197,7 @@ ___
 
 ### **10. Airports with the most cancelled flights**  
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * The highest (13) flight cancellations were experienced in the following airports:
   - Yangzhou Taizhou Airport in China (13 cancellations out of 27 passenger flights)
   - Mae Hong Son Airport in Thailand (13 cancellations out of 29 passenger flights)
@@ -204,14 +210,14 @@ ___
 
 ### **11. Pilots with the most delayed flights**  
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Ethan Desbrow and Demetris Atherley both had the highest number of delayed flights. All the flights they piloted were delayed.
 * While several factors might be responsible for this, their performance suggests they may require extra training or support to improve performance.
 ___  
 
 ### **12. Top performing 20 pilots with the most 'on-schedule' flights**  
 
-### **Discussion and Recommendation**  
+### **Key Insights and Recommendation**  
 * Pilot Janela Eyres was the best-performing pilot, with all (2) flights on schedule. 
 * This pilot should be given some incentive in the form of a bonus or pay rise, to encourage such performance.
 * Implement several strategies to encourage optimum performance. For instance, design Key Performance Indices (KPI) and measure staff performance against these indices
@@ -220,4 +226,13 @@ ___
 
 ## **Conclusion**  
 
+This data shows Böblingen Flugfeld airport, Germany had the most travels while Hiroshima Airport, Japan, and Falcon State Airport, United States both had the least.
+We also infer that airport KEZ and BNZ may be potential hot spots for the Summer holidays as they both had the most visits during summer.  
+
+There is a need to improve processes and infrastructure in some of the airports, especially in Visby Airport, Sweden, as they recorded the highest flight delays. Yangzhou Taizhou Airport in China recorded the highest flight cancellations.
+Our analysis also reveal elderly passengers (60 yrs and above) as the top customers for this airline comapny, and Janela Eyres as the best-performing pilot.  
+___  
+
+## **Further Improvements**  
+This analysis is still ongoing. I hope to analyse this data on MS PowerBI, presenting an interactive dashboard for stakeholders to visualise and better appreciate the key insights. I am also open to suggestions on how to better improve my analysis. Thank you
 ___  
