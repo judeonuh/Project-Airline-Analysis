@@ -26,7 +26,7 @@ ___
 - [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
 - [Data Analysis](#data-analysis)
 - [Conclusion](#conclusion)
-- [Further Improvement](#further-improvement)
+- [Further Improvements](#further-improvements)
 
 ## About the dataset
 ___
