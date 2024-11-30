@@ -83,7 +83,7 @@ ___
 ___
 
 ### **1. Airports with the most travels**  
-![airport most travelled](airline1.png)
+![airport most travelled](project_files/airline1.png)
 
 ### **Key Insights and Recommendation**  
 * Böblingen Flugfeld airport, Germany was the most frequently travelled airport (36 passenger flights).
@@ -92,7 +92,7 @@ increase revenue. They may also require more staff and improved processes to man
 ___
 
 ### **2. Least travelled airports**  
-![Least travelled](airline_least.png)
+![Least travelled](project_files/airline_least.png)
 
 ### **Key Insights and Recommendation**  
 * Hiroshima Airport, Japan and Falcon State Airport, United States each had
@@ -104,7 +104,7 @@ if necessary, resources may need to be reallocated to high-demand airports.
 ___  
 
 ### **3. Age brackets with the most travels**  
-![Age brackets](airline_age_demograph.png)  
+![Age brackets](project_files/airline_age_demograph.png)  
 
 ### **Key Insights and Recommendation**  
 * Elderly passengers (60 yrs and above) made the most travels (33,592). While young adults (20 - 33 yrs) 
@@ -122,7 +122,7 @@ student bonuses (especially during holidays) or business incentives may encourag
 ___  
 
 ### **4. Continents with the most outbound flight**  
-![continents travelled from](airline_continent_flight.png)  
+![continents travelled from](project_files/airline_continent_flight.png)  
 
 ### **Key Insights and Recommendation**  
 * Elderly passengers (50 years and above) made the most travels across all continents.
@@ -138,7 +138,7 @@ improve services here, to enhance passenger experience.
 ___  
 
 ### **5. Nationalities with the most travels**  
-![nationality](airline_nationality.png)
+![nationality](project_files/airline_nationality.png)
 
 ### **Key Insights and Recommendation**  
 * Chart (generated from PostgreSQL) showed that Chinese passengers made the most travels (18,160).
@@ -150,7 +150,7 @@ foods should be on the flight's menu; pamphlets can have Chinese translations to
 ___  
 
 ### **6. Number of flights delayed, cancelled and on-time**  
-![flights delayed, cancelled, on time](airline_flights_status.png)
+![flights delayed, cancelled, on time](project_files/airline_flights_status.png)
 
 ### **Key Insights and Recommendation**  
 * Data showed the airlines had more flight cancellations (32,659 cancelled flights = 34%) compared to 
@@ -161,7 +161,7 @@ for better customer satisfaction.
 ___  
 
 ### **7. Seasons with the most delayed or cancelled flights**  
-![seasons flight status](airline_delayed_cancelled.png)
+![seasons flight status](project_files/airline_delayed_cancelled.png)
 
 ### **Key Insights and Recommendation**  
 * The highest number of flights were made in Summer (24,902), and the least in Winter (23,781)
@@ -178,7 +178,7 @@ such as flights to popular destinations during specific holidays.
 ___  
 
 ### **8. Arrival airport or destinations with the most visits in Summer**  
-![arrivals](arrival.png)
+![arrivals](project_files/arrival.png)
 
 ### **Key Insights and Recommendation**
 * Airport KEZ and BNZ had the most visits during summer (11 flights), suggesting that these locations
