@@ -1,7 +1,7 @@
 # Airline Data Analysis
 ___
 
-![aeroplane_photo](airline_photo.jpg)
+![aeroplane_photo](project_files/airline_photo.jpg)
 
 ## Description
 The airline data holds immense importance, as it offers insights into the functioning and efficiency of the aviation industry. It provides valuable information about flight routes, schedules, passenger demographics, and preferences, which airlines can leverage to optimize their operations and enhance customer experiences.  
